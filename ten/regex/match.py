@@ -6,5 +6,5 @@ str = '4gFefe934rt'
 r = re.match('\d',str)
 r1 = re.search('\d',str)
 
-print(r)
+print(r.span())
 print(r1)
